@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/js/script.js"],"names":["console","log","testNumber"],"mappings":";;;AAKA,aALA,QAAA,sBAEAA,QAAQC,IAAI,eAEZ,IAAMC,EAAa,MACnBF,QAAQC,IAAIC","file":"script.8f326bdb.js","sourceRoot":"..","sourcesContent":["import '../scss/style.scss';\r\n\r\nconsole.log(\"hello world\");\r\n\r\nconst testNumber = 12345;\r\nconsole.log(testNumber);"]}

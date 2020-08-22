@@ -1,0 +1,115 @@
+container {
+// Upper
+    .upper{
+        padding: 40px 46px;
+        display: flex;
+        position: relative;
+    .text {
+        padding-top: 100px;
+        width: 520px;
+        color: $veryDarkBlue;
+        #inputEmail {
+            width: 200px;
+            height: 22px;
+            padding-top: 7px;
+            padding-left: 7px;
+            padding-bottom: 5px;
+            padding-right: 7px;
+            font-size: 10px;
+            color: $lightGray;
+            border: 0.5px solid $desaturatedBlue;
+            border-radius: 1px;
+            font-family: Raleway, sans-serif;
+
+        }
+        #getStarted {
+            height: 36px;
+            width: 170px;
+            margin-left: 7px;
+            background-color: $brightBlue;
+            border: none;
+            border-radius: 2px;
+            color: $white;
+            font-size: 12px;
+            font-family: Raleway, sans-serif;
+           
+        }
+        
+    }
+    #pictureOne {
+        height: 450px;
+        width:650px;
+        
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    }
+
+// Curve 
+    #curve {
+        margin-top: 150px;
+        display: block;
+    }
+}
+
+// Lower
+    .lower {
+        display: flex;
+        position: relative;
+        background-color: #F9F8FE;
+    
+       .textL {
+            color: $veryDarkBlue;
+            padding: 46px;
+            width: 520px;
+            a {
+                color: $moderateCyan;
+                text-decoration: none;
+                border-bottom: 1px solid $moderateCyan;
+            }
+
+            #quote {
+                height: 178px;
+                width: 300px;
+                box-shadow: 0 0 6px 7px rgba(159, 159, 192, 0.15);
+                border-radius: 8px;
+                margin-top: 42px;
+                padding: 30px;
+                font-size: 13px;
+                line-height: 25px;
+                background-color: white;
+
+                #quotePic {
+                    height: 13px;
+                }
+                
+                #avatar {
+                    height: 35px;
+                    border-radius: 90px;
+                    margin-top: 15px;
+                }
+        
+                #kyle {
+                    display: flex;
+                    position: relative;
+                    
+                    p {
+                        padding-left: 10px;
+                        padding-top: 6.5px;
+                        line-height: 16px;
+                    }
+                }
+            
+            }
+            
+        }
+
+        #pictureTwo {
+            height: 400px;
+            margin: 60px;
+            margin-top: 80px;
+            margin-left: 160px;;
+        }
+        
+        
+    }

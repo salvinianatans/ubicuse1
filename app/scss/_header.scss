@@ -1,0 +1,23 @@
+header {
+    padding: 40px 46px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background-color: $white;
+    height: 40px;
+    .logo {
+    background-image: url(/images/logo.svg);
+    height: 31px;
+    width: 105px;
+    background-size: cover;
+    }
+    a {
+        padding: 18px;
+        color: $veryDarkBlue;
+        font-size: 13px;
+    }
+    
+    a, a:visited {
+        text-decoration: none;
+    }
+}
